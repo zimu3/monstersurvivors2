@@ -1,0 +1,143 @@
+# monstersurvivors2<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="canonical" href="https://monstersurvivors.com">
+    <title>Monster Survivors - Online Game</title>
+    <style>
+        body {
+            background-color: #f5f7fa;
+            color: #333;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+        h1 {
+            color: #007aff;
+        }
+        h2 {
+            color: #007aff;
+            font-size: 1.75rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+        .feature-card {
+            background-color: white;
+            border-radius: 0.5rem;
+            padding: 1.25rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            height: 100%;
+        }
+        .feature-title {
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+        .section-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+        .game-section {
+            margin-bottom: 2.5rem;
+        }
+        .control-section {
+            background-color: white;
+            border-radius: 0.5rem;
+            padding: 1.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body class="pb-10">
+    <div class="section-container pt-8">
+        <h1 class="text-4xl font-bold mb-6 text-center">Monster Survivors</h1>
+        
+        <!-- 游戏框架 -->
+        <div class="mb-10">
+            <iframe src="https://cloud.onlinegames.io/games/2025/unity/monster-survivors/index-og.html" 
+                width="100%" height="600" class="mb-6 border-2 border-gray-300 rounded-lg shadow-md" 
+                title="Monster Survivors Game"></iframe>
+        </div>
+        
+        <!-- 关于怪物幸存者 -->
+        <div class="game-section">
+            <h2 class="text-blue-500">关于怪物幸存者</h2>
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <p class="mb-4">Monster Survivors 是一款充满动感的 roguelike 生存游戏，你必须与无尽的怪物战斗。每次冒险都是独一无二的，有随机生成的敌人、强化道具和需要克服的挑战。</p>
+                <p>这款游戏的灵感来自《吸血鬼幸存者》等游戏，将快节奏的动作与战略角色培养相结合。随着难度不断增加，你能生存多久？</p>
+            </div>
+        </div>
+        
+        <!-- 游戏特色 -->
+        <div class="game-section">
+            <h2 class="text-blue-500">游戏特色</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <!-- 多个角色 -->
+                <div class="feature-card">
+                    <h3 class="feature-title text-orange-500">多个角色</h3>
+                    <p>从各种角色中进行选择，每个角色都有独特的起始武器和能力。</p>
+                </div>
+                
+                <!-- 武器进化 -->
+                <div class="feature-card">
+                    <h3 class="feature-title text-green-500">武器进化</h3>
+                    <p>将武器与被动物品结合起来，创造出具有特殊效果的强大进化武器。</p>
+                </div>
+                
+                <!-- 升级系统 -->
+                <div class="feature-card">
+                    <h3 class="feature-title text-purple-500">升级系统</h3>
+                    <p>通过击败敌人来获得经验并升级以选择新武器或升级。</p>
+                </div>
+                
+                <!-- Boss 战 -->
+                <div class="feature-card">
+                    <h3 class="feature-title text-red-500">Boss 战</h3>
+                    <p>对抗在特定时间间隔出现的巨大 Boss 怪物。</p>
+                </div>
+                
+                <!-- 宝箱 -->
+                <div class="feature-card">
+                    <h3 class="feature-title text-yellow-500">宝箱</h3>
+                    <p>寻找并打开宝箱以获取随机物品、黄金或特殊能量增强。</p>
+                </div>
+                
+                <!-- 每日挑战 -->
+                <div class="feature-card">
+                    <h3 class="feature-title text-blue-500">每日挑战</h3>
+                    <p>完成每日挑战以获得奖励并争夺全球排行榜。</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 游戏控制 -->
+        <div class="game-section">
+            <h2 class="text-blue-500">游戏控制</h2>
+            <div class="control-section">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <!-- 键盘控制 -->
+                    <div>
+                        <h3 class="text-xl font-bold text-purple-500 mb-2">键盘控制</h3>
+                        <ul class="list-disc pl-5 space-y-2">
+                            <li><strong>WASD 或箭头键:</strong> 移动你的角色</li>
+                            <li><strong>空格:</strong> 暂停游戏</li>
+                            <li><strong>E 或 Enter:</strong> 选择/确认</li>
+                            <li><strong>Esc:</strong> 返回/菜单</li>
+                        </ul>
+                    </div>
+                    
+                    <!-- 移动控制 -->
+                    <div>
+                        <h3 class="text-xl font-bold text-orange-500 mb-2">移动控制</h3>
+                        <ul class="list-disc pl-5 space-y-2">
+                            <li><strong>虚拟摇杆:</strong> 出现在屏幕左侧，用于移动</li>
+                            <li><strong>点击按钮:</strong> 右侧的菜单和操作按钮</li>
+                            <li><strong>滑动:</strong> 浏览菜单和选择屏幕</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
